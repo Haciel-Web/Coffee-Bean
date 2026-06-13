@@ -1,0 +1,6 @@
+{
+  "name": "White Brew Coffee",
+  "description": "A premium, minimalist coffee shop website called White Brew Coffee featuring luxury minimalist aesthetics, smooth animations, an interactive menu, and customized cart experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
