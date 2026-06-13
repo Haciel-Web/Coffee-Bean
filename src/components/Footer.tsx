@@ -92,12 +92,12 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 font-sans text-xs text-zinc-400 leading-relaxed font-light">
               <p>
-                14 Specialty Row, Design District <br />
-                New York, NY 10001
+                122 Gertrude St, Fitzroy VIC 3065 <br />
+                Melbourne, Australia
               </p>
               <div className="w-12 h-[1px] bg-[#6F4E37]" />
               <p className="font-mono text-[9px] tracking-wider text-[#6F4E37] font-semibold">
-                COORD: 40.7484° N, 73.9857° W
+                COORD: 37.8016° S, 144.9796° E
               </p>
             </div>
           </div>

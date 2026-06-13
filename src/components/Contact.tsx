@@ -28,8 +28,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Our Coffee Telephone Line",
-      value: "+1 (555) 019-2831",
-      href: "tel:+15550192831"
+      value: "+61 3 9417 1222",
+      href: "tel:+61394171222"
     }
   ];
 
@@ -117,7 +117,7 @@ export default function Contact() {
             <div className="w-full aspect-video border border-[#EAEAEA] p-1 bg-[#FFFFFF] relative overflow-hidden group">
               <iframe
                 title="White Brew Coffee Google Map Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175402507624!2d-73.98782352427845!3d40.74844047138914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1703248386187!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.2346617066803!2d144.97741357682496!3d-37.8016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642df5251a37b%3A0x28af8fe205b38edb!2sGertrude%20St%2C%20Fitzroy%20VIC%203065%2C%20Australia!5e0!3m2!1sen!2sau!4v1718318000000!5m2!1sen!2sau"
                 className="w-full h-full grayscale-[90%] contrast-[95%] invert-[5%] opacity-85 group-hover:grayscale-0 transition-all duration-700 pointer-events-auto"
                 style={{ border: 0 }}
                 allowFullScreen={false}
@@ -125,7 +125,7 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
               />
               <div className="absolute top-2 left-2 bg-[#FFFFFF]/90 backdrop-blur-sm border border-[#EAEAEA] font-mono text-[8.5px] tracking-widest text-[#111111]/75 px-2 py-1 select-none pointer-events-none">
-                COORD: 40.7484° N, 73.9857° W
+                COORD: 37.8016° S, 144.9796° E
               </div>
             </div>
           </div>

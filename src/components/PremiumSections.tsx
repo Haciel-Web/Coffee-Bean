@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { BEAN_ORIGINS, CHOOSE_US_REASONS, BREWING_STEPS } from "../data";
 import { MapPin, Sparkles, Compass, Bean, Eye, Hourglass, HelpCircle, Check, ArrowRight, Mail } from "lucide-react";
+import coffeePour from "../assets/images/coffee_pour_1781348533827.jpg";
 
 export default function PremiumSections() {
   const [newsEmail, setNewsEmail] = useState("");
@@ -232,7 +233,7 @@ export default function PremiumSections() {
                 className="relative p-3 bg-[#FFFFFF] border border-[#EAEAEA] shadow-sm max-w-sm aspect-[4/5] overflow-hidden"
               >
                 <img
-                  src="/src/assets/images/coffee_pour_1781348533827.jpg"
+                  src={coffeePour}
                   alt="Specialty hand pour-over V60 preparation with slow spiral pour"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-1000"

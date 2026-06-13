@@ -1,4 +1,8 @@
 import { MenuItem, Testimonial, TimelineItem, BeanOrigin, BrewingStep } from "./types";
+import coffeeHero from "./assets/images/coffee_hero_1781348519300.jpg";
+import coffeeMatcha from "./assets/images/coffee_matcha_1781348563967.jpg";
+import coffeePour from "./assets/images/coffee_pour_1781348533827.jpg";
+import coffeeInterior from "./assets/images/coffee_interior_1781348548747.jpg";
 
 export const MENU_ITEMS: MenuItem[] = [
   // Espresso
@@ -40,7 +44,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Our hallmark drink. Double shot of espresso layered over meticulously steamed, sweet oat milk with delicate rosetta art.",
     price: 5.8,
     category: "Latte",
-    image: "/src/assets/images/coffee_hero_1781348519300.jpg", // Using our generated high-res hero latte shot
+    image: coffeeHero, // Using our generated high-res hero latte shot
     isFeatured: true,
     isBestSeller: true,
     notes: "House Classic"
@@ -104,7 +108,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Stone-ground Organic Ceremonial Matcha whisked traditionally in bamboo bowls, combined with a touch of agave and creamy almond milk.",
     price: 6.5,
     category: "Matcha",
-    image: "/src/assets/images/coffee_matcha_1781348563967.jpg", // Using our generated matcha image
+    image: coffeeMatcha, // Using our generated matcha image
     isFeatured: true,
     isBestSeller: false,
     notes: "Organic & Ceremonial"
@@ -270,12 +274,12 @@ export const BREWING_STEPS: BrewingStep[] = [
 
 export const GALLERY_PHOTOS = [
   {
-    url: "/src/assets/images/coffee_pour_1781348533827.jpg", // our beautiful pour-over shot
+    url: coffeePour, // our beautiful pour-over shot
     alt: "Manual hand brew V60 extraction process at White Brew Coffee",
     caption: "The Precision V60 Hand Brew"
   },
   {
-    url: "/src/assets/images/coffee_interior_1781348548747.jpg", // our beautiful interior shot
+    url: coffeeInterior, // our beautiful interior shot
     alt: "Beautiful minimalist architectural design of White Brew dining space",
     caption: "Our Serene Architectural Oasis"
   },
@@ -285,7 +289,7 @@ export const GALLERY_PHOTOS = [
     caption: "Single-Origin Lever Extraction"
   },
   {
-    url: "/src/assets/images/coffee_hero_1781348519300.jpg", // our hero shot
+    url: coffeeHero, // our hero shot
     alt: "Signature White Latte close-up on clean white table with soft morning lighting",
     caption: "Signature Pure Latte Art"
   },

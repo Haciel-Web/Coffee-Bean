@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { TIMELINE } from "../data";
 import { Calendar, Compass, Feather, Sparkles } from "lucide-react";
+import coffeeInterior from "../assets/images/coffee_interior_1781348548747.jpg";
 
 export default function About() {
   const values = [
@@ -43,7 +44,7 @@ export default function About() {
               className="relative p-3 bg-[#FFFFFF] border border-[#EAEAEA] shadow-sm aspect-[4/5] overflow-hidden"
             >
               <img
-                src="/src/assets/images/coffee_interior_1781348548747.jpg"
+                src={coffeeInterior}
                 alt="White Brew flagship café featuring light wood Scandinavian architecture"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-800"

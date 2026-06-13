@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowDown } from "lucide-react";
+import coffeeHero from "../assets/images/coffee_hero_1781348519300.jpg";
 
 export default function Hero() {
   const handleScrollToSection = (id: string) => {
@@ -108,7 +109,7 @@ export default function Hero() {
             {/* Main Visual Image container */}
             <div className="relative w-full h-full overflow-hidden bg-[#FFFFFF] border border-[#EAEAEA]/60 group">
               <motion.img
-                src="/src/assets/images/coffee_hero_1781348519300.jpg"
+                src={coffeeHero}
                 alt="Signature White Brew Specialty Coffee Latte cup with micro-foam art"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale-[30%] group-hover:scale-105 group-hover:grayscale-0 transition-all duration-1000"
